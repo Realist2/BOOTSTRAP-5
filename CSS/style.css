@@ -1,0 +1,18 @@
+body::before {
+    display: block;
+    content: "";
+    height: 72px; /* Height of the navbar */
+}
+#boxes .card{
+    min-height: 300px;
+}
+#instructors img {
+    width: 130px;
+    background-color: rgb(192, 192, 192);
+}
+/* Breakpoint for medium */
+@media(min-width: 768px) {
+    .news-input {
+        width: 50%;
+    }
+}
